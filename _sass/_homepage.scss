@@ -15,6 +15,11 @@
   a {
     color: $color-blue;
     text-decoration: underline;
+    transition: color 0.25s;
+
+    &:hover {
+      color: darken($color-blue, 10);
+    }
   }
 
   @include responsive($device-medium) {

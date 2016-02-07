@@ -20,4 +20,14 @@ twitter_username: kevinjhsia
 markdown: kramdown
 
 #Excludes
-exclude: ["node_modules, src, design"]
+exclude: [
+  "/node_modules",
+  "/src",
+  "/design",
+  "Gemfile",
+  "Gemfile.lock",
+  "gulpfile.js",
+  "package.json",
+  "LICENSE",
+  "README.md"
+  ]
