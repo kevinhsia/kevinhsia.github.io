@@ -16,6 +16,16 @@
     color: $color-blue;
     text-decoration: underline;
   }
+
+  @include responsive($device-medium) {
+    font-size: 1.8rem;
+    padding: 0 2rem;
+  }
+
+  @include responsive($device-small) {
+    padding: 2rem;
+    width: 100%;
+  }
 }
 
 .hero__avatar {
@@ -31,6 +41,10 @@
     margin: $margin;
     position: absolute;
     width: calc(100% - #{$margin} * 2);
+  }
+
+  @include responsive($device-small) {
+    display: none;
   }
 }
 
@@ -48,10 +62,18 @@
 
 .services__items-wrapper {
   display: flex;
+
+  @include responsive($device-small) {
+    display: block;
+  }
 }
 
 .services__item {
   width: calc(1/3 * 100%);
+
+  @include responsive($device-small) {
+    width: 100%;
+  }
 }
 
 .services__item-header {
