@@ -4,23 +4,25 @@
 @charset 'utf-8';
 
 @font-face {
-  font-family: 'Bebas Neue Bold';
-  src: url('/assets/fonts/BebasNeueBold.ttf') format('truetype');
+  font-family: 'Bebas Neue';
+  src: url('/assets/fonts/BebasNeueLight.ttf') format('truetype');
+  font-weight: 200;
 }
 
 @font-face {
-  font-family: 'Bebas Neue Light';
-  src: url('/assets/fonts/BebasNeueLight.ttf') format('truetype');
+  font-family: 'Bebas Neue';
+  src: url('/assets/fonts/BebasNeueBold.ttf') format('truetype');
+  font-weight: 700;
 }
 
-$sans-font-family: 'Bebas Neue Bold', Helvetica, Arial, sans-serif;
+$sans-font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
 $serif-font-family: 'Mate', Georgia, serif;
-$header-font-family: 'Bebas Neue Light', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $base-line-height: 1.4;
 
 $color-black: #1f1f1f;
+$color-blackest: #161616;
 $color-white: #fff;
 $color-cream: #f7f7f7;
 $color-blue: #2989de;

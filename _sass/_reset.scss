@@ -13,6 +13,11 @@
   vertical-align: baseline;
 }
 
+::selection {
+  background-color: $color-pink;
+  color: $color-white;
+}
+
 article,
 aside,
 details,

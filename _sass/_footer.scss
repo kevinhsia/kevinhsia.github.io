@@ -1,0 +1,25 @@
+.footer {
+  background-color: $color-blackest;
+  color: $color-white;
+  font-family: $sans-font-family;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  padding: 2rem 0 1.5rem;
+}
+
+.footer__content {
+  text-align: center;
+}
+
+.footer__social-links {
+  margin-bottom: 0.5em;
+
+  a {
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+  }
+}
+
+.footer__type-credit {
+  opacity: 0.25;
+}

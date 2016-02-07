@@ -16,12 +16,6 @@
     color: $color-blue;
     text-decoration: underline;
   }
-
-  &::selection,
-  a::selection {
-    background-color: $color-pink;
-    color: $color-white;
-  }
 }
 
 .hero__avatar {
@@ -85,8 +79,9 @@
 .services__item-name {
   background-color: rgba($color-black, 0.6);
   bottom: 0;
-  font-family: $header-font-family;
+  font-family: $sans-font-family;
   font-size: 1.8rem;
+  font-weight: 200;
   padding: 0.5em 0.5em 0.3em 0.4em;
   position: absolute;
   width: 100%;
