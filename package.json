@@ -1,0 +1,24 @@
+{
+  "name": "kevinhsia.github.io",
+  "version": "1.0.0",
+  "description": "Kevin Hsia's personal website.",
+  "main": "dest/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinhsia/kevinhsia.github.io.git"
+  },
+  "author": "Dan Cortes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinhsia/kevinhsia.github.io/issues"
+  },
+  "homepage": "https://github.com/kevinhsia/kevinhsia.github.io#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2"
+  }
+}

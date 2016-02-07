@@ -2,7 +2,10 @@
   <div class="content-wrapper">
     <div class="header__wrapper">
       <a class="header__logo" href="{{ site.baseurl }}/"></a>
-      <nav class="header__nav">
+      <button class="header__mobile-menu-toggle" id="mobile-menu-toggle">
+        MENU
+      </button>
+      <nav class="header__nav"  id="nav-menu">
         {% assign nav_sorted = (site.pages | sort: 'nav-position') %}
         {% for my_page in nav_sorted %}
           {% if my_page.title %}
@@ -10,9 +13,6 @@
           {% endif %}
         {% endfor %}
       </nav>
-      <a href="#" class="header__mobile-menu-toggle">
-        MENU
-      </a>
     </div>
   </div>
 </header>
