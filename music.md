@@ -6,68 +6,28 @@ permalink: /music/
 ---
 
 <div class="music">
-  <div class="content-wrapper">
-    <div class="hero">
-      <h1 class="hero__heading">
-        Freelance multimedia producer, DJ, &amp;
-        curator of <a href="https://www.facebook.com/winenvinyl" target="_blank">Wine and Vinyl</a>, a&nbsp;monthly music listening party.
-        Based in Chicago, IL. <a href="#">Get in touch</a>.
-      </h1>
-      <div class="hero__avatar">
-        <div class="hero__avatar-image"></div>
+  <div class="hero">
+    <div class="content-wrapper">
+      <div class="hero__container">
+        <h1 class="hero__heading">
+          <span class="hero__description-prevent-break">Kevin is a DJ</span>
+          <span class="hero__description-prevent-break">with a penchant for</span>
+          <span class="hero__description-prevent-break">soul, funk, R&amp;B, and Disco</span>
+        </h1>
+        <div class="hero__soundcloud-wrapper">
+          <div class="hero__soundcloud-sizer">
+            <iframe class="hero__soundcloud-embed" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238727478&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="services">
+  <div class="page-body">
     <div class="content-wrapper">
-      <div class="services__items-wrapper">
-        <div class="services__item services__item--photography">
-          <div class="services__item-header">
-            <h2 class="services__item-name">
-              Photography
-            </h2>
-          </div>
-          <div class="services__item-body">
-            <p>
-              Mercedem aut nummos unde unde extricat, amaras.
-              Unam incolunt Belgae, aliam Aquitani, tertiam.
-              Non equidem invideo, miror magis posuere velit aliquet.
-              Quo usque tandem abutere, Catilina, patientia nostra?
-            </p>
-          </div>
-        </div>
-        <div class="services__item services__item--videography">
-          <div class="services__item-header">
-            <h2 class="services__item-name">
-              Videography
-            </h2>
-          </div>
-          <div class="services__item-body">
-            <p>
-              Prima luce, cum quibus mons aliud  consensu ab eo.
-              Morbi odio eros, volutpat ut pharetra vitae, lobortis sed nibh.
-              Sed haec quis possit intrepidus aestimare tellus.
-              Plura mihi bona sunt, inclinet, amari petere vellent.
-            </p>
-          </div>
-        </div>
-        <div class="services__item services__item--dj-performance">
-          <div class="services__item-header">
-            <h2 class="services__item-name">
-              DJ Performance
-            </h2>
-          </div>
-          <div class="services__item-body">
-            <p>
-              Sed haec quis possit intrepidus aestimare tellus.
-              Donec sed odio operae, eu vulputate felis rhoncus.
-              Curabitur est gravida et libero vitae dictum.
-              Magna pars studiorum, prodita quaerimus.
-            </p>
-          </div>
-        </div>
-      </div>
+      <h2 class="page-body__title">Morbi fringilla convallis sapien</h2>
+      <p class="page-body__copy">Id pulvinar odio volutpat. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras. Quo usque tandem abutere, Catilina, patientia nostra? Excepteur sint obcaecat cupiditat non proident culpa.</p>
+      <p class="page-body__copy">Salutantibus vitae elit libero, a pharetra augue. Praeterea iter est quasdam res quas ex communi. Cras mattis iudicium purus sit amet fermentum. A communi observantia non est recedendum.</p>
     </div>
   </div>
 </div>

@@ -1,9 +1,13 @@
 // Hero
-.hero {
+.hero__container {
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 0.75em 0;
+
+  @include responsive($device-small) {
+    flex-wrap: wrap;
+  }
 }
 
 .hero__heading {

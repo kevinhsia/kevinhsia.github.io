@@ -1,0 +1,73 @@
+.music {
+
+  .hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../assets/images/music-hero-bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+  }
+
+  .hero__heading {
+    color: $color-white;
+  }
+
+  .hero__description-prevent-break {
+    display: block;
+  }
+
+  .hero__soundcloud-wrapper {
+    position: relative;
+    width: calc(1/3 * 100%);
+
+    @include responsive($device-small) {
+      margin: 0 auto;
+      // padding: 1rem 2rem;
+      width: calc(100% - 4rem);
+    }
+  }
+
+  .hero__soundcloud-sizer {
+    left: 0;
+    padding-bottom: 100%;
+    top: 0;
+
+    @include responsive($device-small) {
+      padding-bottom: 40%;
+    }
+  }
+
+  .hero__soundcloud-embed {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .page-body {
+    background-color: $color-black;
+    border-top: 4px solid $color-teal;
+    color: $color-white;
+    padding: 2rem;
+
+    .content-wrapper {
+      max-width: 650px;
+    }
+  }
+
+  .page-body__title {
+    font-size: 2rem;
+    font-weight: lighter;
+
+    @include responsive($device-small) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .page-body__copy {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+  }
+}
