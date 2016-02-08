@@ -1,6 +1,5 @@
 'use strict';
 
-console.log('loaded');
 var menuToggle = document.getElementById('mobile-menu-toggle');
 menuToggle.addEventListener('click', toggleMobileMenu);
 
