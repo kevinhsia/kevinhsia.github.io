@@ -13,3 +13,8 @@ gulp.task('default', ()=> {
     .pipe(postcss([autoprefixer({browsers: ['last 2 versions']})]))
     .pipe(gulp.dest('_site/css'));
 });
+
+gulp.task('watch', ()=> {
+  gulp.watch(['src/script.js'], ['default']);
+});
+

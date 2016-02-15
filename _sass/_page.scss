@@ -1,0 +1,71 @@
+.page-inner {
+  .hero {
+    background-position: 50%;
+    background-size: cover;
+  }
+
+  .hero__heading {
+    color: $color-white;
+    max-width: none;
+    width: auto;
+  }
+
+  .hero__description-prevent-break {
+    display: block;
+  }
+
+  .page-body {
+    background-color: $color-black;
+    border-top: 4px solid $color-white;
+    color: $color-white;
+    padding: 2rem 2rem 4rem;
+
+    .content-wrapper {
+      max-width: 650px;
+    }
+  }
+
+  .page-body__title {
+    font-size: 2rem;
+    font-weight: lighter;
+
+    @include responsive($device-small) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .page-body__copy {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+  }
+
+  .page-body__contact {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .page-body__contact-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+
+  .page-body__contact-button {
+    border: 2px solid $color-white;
+    color: $color-white;
+    display: inline-block;
+    font-family: $sans-font-family;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 0.8em 1.25em 0.7em;
+    transition: all 0.25s;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-black;
+    }
+  }
+}
