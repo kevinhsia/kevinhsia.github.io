@@ -26,9 +26,12 @@
   }
 
   #fancy-slideshow {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.25rem;
     bottom: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     left: 0;
+    overflow: hidden;
     position: absolute;
     right: 0;
     top: 0;
@@ -38,10 +41,17 @@
     background-position: 50% 50%;
     background-size: cover;
     bottom: 0;
+    border-radius: 0.25rem;
     left: 0;
+    opacity: 1;
     position: absolute;
+    transition: opacity 0.25s;
     right: 0;
     top: 0;
+
+    &.fade-out {
+      opacity: 0;
+    }
   }
 
   .fancy-slideshow__controls-wrapper {

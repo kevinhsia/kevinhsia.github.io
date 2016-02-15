@@ -13,7 +13,7 @@ function toggleMobileMenu(e) {
 
 // Fancy, reusable slideshow
 const fancySlideshow = document.getElementById('fancy-slideshow');
-if (fancySlideshow.hasChildNodes()) {
+if (fancySlideshow && fancySlideshow.hasChildNodes()) {
   const imagesWrapper = document.createElement('div');
   const controlsWrapper = document.createElement('div');
   const prevArrow = document.createElement('div');
@@ -59,6 +59,10 @@ if (fancySlideshow.hasChildNodes()) {
         currentImage = 0;
       }
     }
-    imagesWrapper.style.backgroundImage = `url(${imagesArray[currentImage]})`;
+    imagesWrapper.classList.add('fade-out');
+    setTimeout(()=> {
+      imagesWrapper.style.backgroundImage = `url(${imagesArray[currentImage]})`;
+      imagesWrapper.classList.remove('fade-out');
+    }, 250);
   }
 }

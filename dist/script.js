@@ -15,7 +15,7 @@ function toggleMobileMenu(e) {
 
 // Fancy, reusable slideshow
 var fancySlideshow = document.getElementById('fancy-slideshow');
-if (fancySlideshow.hasChildNodes()) {
+if (fancySlideshow && fancySlideshow.hasChildNodes()) {
   (function () {
     var handleSlideshowArrow = function handleSlideshowArrow(val) {
       if (val = 'prev') {
@@ -31,7 +31,11 @@ if (fancySlideshow.hasChildNodes()) {
           currentImage = 0;
         }
       }
-      imagesWrapper.style.backgroundImage = 'url(' + imagesArray[currentImage] + ')';
+      imagesWrapper.classList.add('fade-out');
+      setTimeout(function () {
+        imagesWrapper.style.backgroundImage = 'url(' + imagesArray[currentImage] + ')';
+        imagesWrapper.classList.remove('fade-out');
+      }, 250);
     };
 
     var imagesWrapper = document.createElement('div');
