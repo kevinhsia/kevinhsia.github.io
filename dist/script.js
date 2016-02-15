@@ -18,13 +18,13 @@ var fancySlideshow = document.getElementById('fancy-slideshow');
 if (fancySlideshow && fancySlideshow.hasChildNodes()) {
   (function () {
     var handleSlideshowArrow = function handleSlideshowArrow(val) {
-      if (val = 'prev') {
+      if (val === 'prev') {
         if (currentImage > 0) {
           currentImage--;
         } else {
           currentImage = numberOfImages - 1;
         }
-      } else if (val = 'next') {
+      } else if (val === 'next') {
         if (currentImage < numberOfImages - 1) {
           currentImage++;
         } else {
