@@ -7,6 +7,7 @@
   .hero__heading {
     color: $color-white;
     max-width: none;
+    text-shadow: 0 2px 6px $color-black;
     width: auto;
   }
 
@@ -26,8 +27,11 @@
   }
 
   .page-body__title {
-    font-size: 2rem;
-    font-weight: lighter;
+    font-size: 1.15rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
 
     @include responsive($device-small) {
       font-size: 1.5rem;
@@ -41,15 +45,16 @@
   }
 
   .page-body__contact {
-    margin-top: 2rem;
+    margin-top: 3rem;
     text-align: center;
   }
 
   .page-body__contact-heading {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 400;
-    letter-spacing: 1px;
-    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.25rem;
+
   }
 
   .page-body__contact-button {
@@ -61,6 +66,7 @@
     font-weight: bolder;
     letter-spacing: 1px;
     padding: 0.8em 1.25em 0.7em;
+    text-transform: uppercase;
     transition: all 0.25s;
 
     &:hover {
