@@ -13,6 +13,17 @@ function toggleMobileMenu(e) {
   }
 }
 
+(function () {
+  var windowHeight = window.innerHeight;
+  var bodyHeight = document.getElementsByTagName('body')[0].clientHeight;
+  var pageBodyElement = document.getElementsByClassName('page-body')[0];
+  if (bodyHeight < windowHeight && pageBodyElement) {
+    var pageBodyElementHeight = pageBodyElement.clientHeight;
+    var difference = windowHeight - bodyHeight;
+    pageBodyElement.style.minHeight = pageBodyElementHeight + difference + 10 + 'px';
+  }
+})();
+
 // Fancy, reusable slideshow
 var fancySlideshow = document.getElementById('fancy-slideshow');
 if (fancySlideshow && fancySlideshow.hasChildNodes()) {

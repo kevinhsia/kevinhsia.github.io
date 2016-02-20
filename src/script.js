@@ -11,6 +11,17 @@ function toggleMobileMenu(e) {
   }
 }
 
+(()=> {
+  const windowHeight = window.innerHeight;
+  const bodyHeight = document.getElementsByTagName('body')[0].clientHeight;
+  const pageBodyElement = document.getElementsByClassName('page-body')[0];
+  if (bodyHeight < windowHeight && pageBodyElement) {
+    const pageBodyElementHeight = pageBodyElement.clientHeight;
+    const difference = windowHeight - bodyHeight;
+    pageBodyElement.style.minHeight = `${pageBodyElementHeight + difference + 10}px`;
+  }
+})();
+
 // Fancy, reusable slideshow
 const fancySlideshow = document.getElementById('fancy-slideshow');
 if (fancySlideshow && fancySlideshow.hasChildNodes()) {

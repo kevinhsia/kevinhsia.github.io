@@ -7,7 +7,7 @@
 
   .hero__container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 3em 2em;
   }
 
@@ -24,14 +24,11 @@
 
   .hero__about {
     color: $color-white;
+    max-width: 35em;
   }
 
-  .hero__about-body {
-    max-width: 35em;
-
-    p {
-      margin-bottom: 0.5em;
-    }
+  .hero__about-body p {
+    margin-bottom: 0.5em;
   }
 
   .hero__about-list {
@@ -55,6 +52,10 @@
     border-color: $color-contact;
   }
 
+  .page-body .content-wrapper {
+    max-width: 35em;
+  }
+
   .page-body__copy {
     a {
       color: lighten($color-blue, 10);
@@ -63,8 +64,7 @@
 
   .page-body__input-wrapper {
     justify-content: space-between;
-    margin-bottom: 0.75em;
-    padding: 0 5em;
+    margin-bottom: 1.25em;
 
     label,
     input,
@@ -76,6 +76,7 @@
 
     label,
     .page-body__submit-spacer {
+      margin-bottom: 0.25em;
       margin-right: 1em;
       min-width: 10em;
     }
