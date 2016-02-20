@@ -24,6 +24,10 @@
     .content-wrapper {
       max-width: 650px;
     }
+
+    @include responsive($device-small) {
+      padding: 2rem 1rem 4rem;
+    }
   }
 
   .page-body__title {

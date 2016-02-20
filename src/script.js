@@ -17,8 +17,8 @@ function toggleMobileMenu(e) {
   const pageBodyElement = document.getElementsByClassName('page-body')[0];
   if (bodyHeight < windowHeight && pageBodyElement) {
     const pageBodyElementHeight = pageBodyElement.clientHeight;
-    const difference = windowHeight - bodyHeight;
-    pageBodyElement.style.minHeight = `${pageBodyElementHeight + difference + 10}px`;
+    const difference = windowHeight - (bodyHeight - pageBodyElementHeight);
+    pageBodyElement.style.minHeight = `${difference + 10}px`;
   }
 })();
 

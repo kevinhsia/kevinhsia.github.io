@@ -102,11 +102,21 @@
       color: $color-music;
     }
   }
+
+  &.contact {
+    box-shadow: inset 0 0 0 $color-contact;
+
+    &:focus,
+    &:hover {
+      box-shadow: inset 0 4px 0 $color-contact;
+      color: $color-contact;
+    }
+  }
 }
 
 .header__mobile-menu-toggle {
   display: none;
-  padding: 0.8em 0.65em 0.6em;
+  padding: 1.25em 1em 1.1em;;
 
   @include responsive($device-small) {
     display: inline-block;

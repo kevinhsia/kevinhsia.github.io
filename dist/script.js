@@ -19,8 +19,8 @@ function toggleMobileMenu(e) {
   var pageBodyElement = document.getElementsByClassName('page-body')[0];
   if (bodyHeight < windowHeight && pageBodyElement) {
     var pageBodyElementHeight = pageBodyElement.clientHeight;
-    var difference = windowHeight - bodyHeight;
-    pageBodyElement.style.minHeight = pageBodyElementHeight + difference + 10 + 'px';
+    var difference = windowHeight - (bodyHeight - pageBodyElementHeight);
+    pageBodyElement.style.minHeight = difference + 10 + 'px';
   }
 })();
 
