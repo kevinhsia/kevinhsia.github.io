@@ -7,6 +7,10 @@
 
   .hero__container {
     padding: 3em 0;
+
+    @include responsive($device-small) {
+      padding: 1em 0;
+    }
   }
 
   .hero__video-wrapper {
