@@ -9,6 +9,10 @@
     display: flex;
     justify-content: center;
     padding: 3em 2em;
+
+    @include responsive($device-small) {
+      padding: 3em 1em;
+    }
   }
 
   .hero__avatar-contact {
@@ -20,6 +24,10 @@
     min-height: 200px;
     min-width: 200px;
     width: 200px;
+
+    @include responsive($device-small) {
+      margin: 0 0 1rem;
+    }
   }
 
   .hero__about {
