@@ -1,0 +1,111 @@
+.page-inner.contact {
+  .hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../assets/images/robots2x.png);
+    background-size: 200px;
+  }
+
+  .hero__container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3em 2em;
+  }
+
+  .hero__avatar-contact {
+    background-image: url(../assets/images/contact-pic.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 200px;
+    margin-right: 2rem;
+    min-height: 200px;
+    min-width: 200px;
+    width: 200px;
+  }
+
+  .hero__about {
+    color: $color-white;
+  }
+
+  .hero__about-body {
+    max-width: 35em;
+
+    p {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .hero__about-list {
+    background-color: red;
+    list-style: disc;
+    margin-left: 1.5em;
+
+    &:first-child {
+      margin-right: 1.5em;
+    }
+  }
+
+  .hero__heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    padding: 0;
+    text-shadow: none;
+  }
+
+  .page-body {
+    border-color: $color-contact;
+  }
+
+  .page-body__copy {
+    a {
+      color: lighten($color-blue, 10);
+    }
+  }
+
+  .page-body__input-wrapper {
+    justify-content: space-between;
+    margin-bottom: 0.75em;
+    padding: 0 5em;
+
+    label,
+    input,
+    textarea {
+      display: block;
+      font-family: $sans-font-family;
+      width: 100%;
+    }
+
+    label,
+    .page-body__submit-spacer {
+      margin-right: 1em;
+      min-width: 10em;
+    }
+
+    input,
+    textarea {
+      color: $color-black;
+      padding: 0.5em;
+    }
+  }
+
+  textarea {
+    min-height: 7.5em;
+  }
+
+  input[type='submit'] {
+    border: 4px solid;
+    cursor: pointer;
+    transition: all $transition-speed;
+  }
+
+  input[type='submit'],
+  .page-body__contact-button {
+    background-color: transparent;
+    border-color: $color-contact;
+    color: $color-contact;
+
+    &:hover {
+      background-color: $color-contact;
+      color: $color-black;
+    }
+  }
+}

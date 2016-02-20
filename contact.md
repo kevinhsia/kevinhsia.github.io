@@ -1,8 +1,53 @@
 ---
 layout: page
 title: Contact
+class: contact
 nav-position: 4
 permalink: /contact/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="hero">
+  <div class="content-wrapper">
+    <div class="hero__container">
+      <div class="hero__avatar-contact"></div>
+      <div class="hero__about">
+        <h1 class="hero__heading">Hi, I'm Kevin</h1>
+        <div class="hero__about-body">
+          <p>I'm a creative professional living in Chicago. You can find me taking photographs, video, or playing records at night.</p>
+          <p>I am always interested in new opportunities, projects and collaborations.</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="page-body">
+  <div class="content-wrapper">
+    <h2 class="page-body__title">
+      Contact Kevin Hsia
+    </h2>
+    <p class="page-body__copy">
+      Get in touch with Kevin via <a href="#">email</a>, or via the form below.
+    </p>
+    <form action="https://getsimpleform.com/messages?form_api_token=1b8d5d4e7de55ac5111769f80a7747bf" method="post">
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+      <input type='hidden' name='redirect_to' value='https://www.google.com' />
+      <!-- all your input fields here.... -->
+      <div class="page-body__input-wrapper">
+        <label for="name">Name</label>
+        <input id="name" type='text' name='message' />
+      </div>
+      <div class="page-body__input-wrapper">
+        <label for="email">Email</label>
+        <input id="email" type='text' name='message' />
+      </div>
+      <div class="page-body__input-wrapper">
+        <label for="info">How can I help?</label>
+        <textarea id="info" type='text' name='message'></textarea>
+      </div>
+      <div class="page-body__input-wrapper">
+        <div class="page-body__submit-spacer"></div>
+        <input type='submit' value='Submit' />
+      </div>
+    </form>
+  </div>
+</div>

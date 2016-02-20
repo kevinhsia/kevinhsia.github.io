@@ -67,7 +67,7 @@
     letter-spacing: 1px;
     padding: 0.8em 1.25em 0.7em;
     text-transform: uppercase;
-    transition: all 0.25s;
+    transition: all ($transition-speed * 1.5);
 
     &:hover {
       background-color: $color-white;

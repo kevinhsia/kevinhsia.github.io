@@ -8,7 +8,7 @@
   letter-spacing: 1px;
 
   @include responsive($device-medium) {
-    font-size: 1.4rem;
+    font-size: 0.95rem;
   }
 }
 
@@ -26,10 +26,6 @@
   display: inline-block;
   margin: 0.5em;
   width: 200px;
-
-  img {
-    display: none;
-  }
 }
 
 .header__nav {
@@ -37,7 +33,7 @@
     display: flex;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.25s;
+    transition: max-height ($transition-speed * 2);
     width: 100%;
   }
 
@@ -47,14 +43,14 @@
 }
 
 .header__nav-link {
-  box-shadow: inset 0 0 0 $color-red;
+  box-shadow: inset 0 0 0 $color-blue;
   display: inline-block;
   padding: 1.15em 0.65em 1.1em;
-  transition: box-shadow 0.1s linear;
+  transition: box-shadow $transition-speed linear;
 
   &:hover {
-    box-shadow: inset 0 4px 0 $color-red;
-    color: $color-red;
+    box-shadow: inset 0 4px 0 $color-blue;
+    color: $color-blue;
   }
 
   @include responsive($device-small) {
@@ -63,6 +59,33 @@
 
     &:hover {
       box-shadow: inset 0 -4px 0 $color-red;
+    }
+  }
+
+  &.photo {
+    box-shadow: inset 0 0 0 $color-photo;
+
+    &:hover {
+      box-shadow: inset 0 4px 0 $color-photo;
+      color: $color-photo;
+    }
+  }
+
+  &.video {
+    box-shadow: inset 0 0 0 $color-video;
+
+    &:hover {
+      box-shadow: inset 0 4px 0 $color-video;
+      color: $color-video;
+    }
+  }
+
+  &.music {
+    box-shadow: inset 0 0 0 $color-music;
+
+    &:hover {
+      box-shadow: inset 0 4px 0 $color-music;
+      color: $color-music;
     }
   }
 }

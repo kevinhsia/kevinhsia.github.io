@@ -109,15 +109,15 @@
   }
 
   .page-body {
-    border-color: $color-teal;
+    border-color: $color-photo;
   }
 
   .page-body__contact-button {
-    border-color: $color-teal;
-    color: $color-teal;
+    border-color: $color-photo;
+    color: $color-photo;
 
     &:hover {
-      background-color: $color-teal;
+      background-color: $color-photo;
       color: $color-black;
     }
   }

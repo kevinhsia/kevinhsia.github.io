@@ -9,7 +9,7 @@
         {% assign nav_sorted = (site.pages | sort: 'nav-position') %}
         {% for my_page in nav_sorted %}
           {% if my_page.title %}
-          <a class="header__nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="header__nav-link {{ my_page.class }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </nav>

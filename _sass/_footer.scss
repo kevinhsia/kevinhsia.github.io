@@ -6,7 +6,6 @@
   font-weight: 300;
   letter-spacing: 1px;
   padding: 2rem 0 1.5rem;
-  // text-transform: uppercase;
 
   .separator {
     display: inline-block;
@@ -22,8 +21,14 @@
   margin-bottom: 0.5em;
 
   a {
-    border-bottom: 1px solid currentColor;
+    border-bottom: 1px solid rgba($color-white, 0);
     display: inline-block;
+    transition: all $transition-speed;
+
+    &:hover,
+    &:focus {
+      border-bottom: 1px solid currentColor;
+    }
   }
 }
 

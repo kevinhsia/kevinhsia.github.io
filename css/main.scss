@@ -31,13 +31,20 @@ $color-yellow: #f8e71c;
 $color-pink: #ff64e0;
 $color-teal: #50e3c2;
 
-$color-text:       #1f1f1f;
+$color-photo: $color-teal;
+$color-video: $color-red;
+$color-music: $color-yellow;
+$color-contact: $color-blue;
+
+$color-text: #1f1f1f;
 $color-bg: #f7f7f7;
 
 $device-medium: 900px;
 $device-small: 650px;
 
 $max-width: 1100px;
+
+$transition-speed: 0.15s;
 
 @mixin responsive($device) {
     @media screen and (max-width: $device) {
@@ -51,4 +58,6 @@ $max-width: 1100px;
 @import 'homepage';
 @import 'page';
 @import 'photo-page';
+@import 'video-page';
 @import 'music-page';
+@import 'contact-page';

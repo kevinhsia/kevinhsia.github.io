@@ -1,4 +1,9 @@
 // Hero
+.hero {
+  background-image: url(/assets/images/geometry.png);
+  // background-size: 25%;
+}
+
 .hero__container {
   align-items: center;
   display: flex;
@@ -18,12 +23,13 @@
   width: calc(2/3 * 100%);
 
   a {
-    // color: $color-blue;
-    text-decoration: underline;
-    transition: color 0.25s;
+    color: $color-blue;
+    display: inline-block;
+    transition: all $transition-speed linear;
 
-    &:hover {
-      color: $color-red;
+    &:hover,
+    &:focus {
+      color: darken($color-blue, 10);
     }
   }
 
@@ -99,7 +105,7 @@
 
   .services__item--videography & {
     background-image: url(../assets/images/service-item-video.png);
-    border-color: $color-pink;
+    border-color: $color-red;
   }
 
   .services__item--dj-performance & {

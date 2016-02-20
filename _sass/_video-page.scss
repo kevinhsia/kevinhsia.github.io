@@ -1,13 +1,18 @@
-.page-inner.music {
+.page-inner.video {
   .hero {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../assets/images/music-hero-bg.jpg);
+      url(../assets/images/video-hero-bg.jpg);
+    background-position: 50% 75%;
   }
 
-  .hero__soundcloud-wrapper {
+  .hero__container {
+    padding: 3em 0;
+  }
+
+  .hero__video-wrapper {
     margin-right: 1rem;
     position: relative;
-    width: calc(1/3 * 100%);
+    width: calc(3/7 * 100%);
 
     @include responsive($device-small) {
       margin: 0 auto;
@@ -15,9 +20,9 @@
     }
   }
 
-  .hero__soundcloud-sizer {
+  .hero__video-sizer {
     left: 0;
-    padding-bottom: 100%;
+    padding-bottom: 56.25%;
     top: 0;
 
     @include responsive($device-small) {
@@ -25,7 +30,7 @@
     }
   }
 
-  .hero__soundcloud-embed {
+  .hero__video-embed {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     height: 100%;
     left: 0;
@@ -35,15 +40,15 @@
   }
 
   .page-body {
-    border-color: $color-music;
+    border-color: $color-video;
   }
 
   .page-body__contact-button {
-    border-color: $color-music;
-    color: $color-music;
+    border-color: $color-video;
+    color: $color-video;
 
     &:hover {
-      background-color: $color-music;
+      background-color: $color-video;
       color: $color-black;
     }
   }
