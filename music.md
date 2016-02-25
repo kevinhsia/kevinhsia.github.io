@@ -27,7 +27,7 @@ permalink: /music/
   <div class="content-wrapper">
     <h2 class="page-body__title">All about the music</h2>
     <p class="page-body__copy">
-      Kevin’s work as a DJ is tellingly influenced by the smooth jazz he grew up listening to. The bassline never strays far from his selections. Witnessing a KJH set entails a movement of body and soul from mood-setting jams to upbeat soul, funk, disco, and house. Maybe a little sax here and there too.
+      Witnessing a KJH set is a body and soul experience. He can move from mood-setting jams to upbeat soul, funk, disco, and house. Maybe a little sax throughout too.
     </p>
     <p class="page-body__copy">
       As an avid record collector, his vinyl collection ranges from left-field grooves to feel good hits. You can find him holding down Silk &amp; Soul at Punch House on second Wednesdays, as well various nights at his favorite spots in Chicago.
