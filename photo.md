@@ -35,7 +35,7 @@ permalink: /photo/
 
 <div class="page-body">
   <div class="content-wrapper">
-    <h2 class="page-body__title">Morbi fringilla convallis sapien</h2>
+    <h2 class="page-body__title">A history of film and digital</h2>
     <p class="page-body__copy">
       Kevin started shooting with his dad's Nikon film camera in the Summer of 2007—the rest is history. He founded VAMP (Vintage Analog Manual Photographers), a student organization at the University of Illinois at Urbana-Champaign. Since graduating, current students and alum continue the film tradition.
     </p>

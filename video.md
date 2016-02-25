@@ -25,9 +25,9 @@ permalink: /video/
 
 <div class="page-body">
   <div class="content-wrapper">
-    <h2 class="page-body__title">Morbi fringilla convallis sapien</h2>
+    <h2 class="page-body__title">Storytelling via video and motion grahpics</h2>
     <p class="page-body__copy">
-      If a picture is worth a thousand words, a video is worth, well, a lot more. Kevin has produced in-agency work for clients like AMC, Marriott, Serta, mobile app animation reels, editorial and culture videos, and content for social media. Full-service capabilities include concepting, shooting, editing, and color grading.
+      If a picture is worth a thousand words, a video is worth, well, many more. Kevin has produced in-agency work for clients like AMC, Marriott, Serta, mobile app animation reels, editorial and culture videos, and content for social media. Full-service capabilities include concepting, shooting, editing, and color grading.
     </p>
     <div class="page-body__contact">
       <h3 class="page-body__contact-heading">Get in touch with video inquiries</h3>
