@@ -15,5 +15,5 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
   <meta property="og:description" content="Kevin Hsia is a multimedia producer, DJ, &amp; curator of Wine and Vinyl. He lives in Chicago, Illinois." />
-  <meta property="og:image" content="{{ site.baseurl }}/assets/images/avatar.jpg" />
+  <meta property="og:image" content="{{ "/assets/images/avatar.jpg" | prepend: site.baseurl | prepend: site.url }}" />
 </head>
