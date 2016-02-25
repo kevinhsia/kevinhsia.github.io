@@ -12,7 +12,7 @@ permalink: /music/
       <h1 class="hero__heading">
         <span class="hero__description-prevent-break">Kevin is a DJ</span>
         <span class="hero__description-prevent-break">with a penchant for</span>
-        <span class="hero__description-prevent-break">soul, funk, R&amp;B, and Disco</span>
+        <span class="hero__description-prevent-break">soul, funk, R&amp;B, and disco</span>
       </h1>
       <div class="hero__soundcloud-wrapper">
         <div class="hero__soundcloud-sizer">
