@@ -36,8 +36,15 @@ permalink: /photo/
 <div class="page-body">
   <div class="content-wrapper">
     <h2 class="page-body__title">Morbi fringilla convallis sapien</h2>
-    <p class="page-body__copy">Id pulvinar odio volutpat. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras. Quo usque tandem abutere, Catilina, patientia nostra? Excepteur sint obcaecat cupiditat non proident culpa.</p>
-    <p class="page-body__copy">Salutantibus vitae elit libero, a pharetra augue. Praeterea iter est quasdam res quas ex communi. Cras mattis iudicium purus sit amet fermentum. A communi observantia non est recedendum.</p>
+    <p class="page-body__copy">
+      Kevin started shooting with his dad's Nikon film camera in the Summer of 2007—the rest is history. He founded VAMP (Vintage Analog Manual Photographers), a student organization at the University of Illinois at Urbana-Champaign. Since graduating, current students and alum continue the film tradition.
+    </p>
+    <p class="page-body__copy">
+      Kevin works with both film and digital mediums in Chicago, photographing weddings, events, and portraits. His love of Chicago’s vibrant music and startup community has led him to photograph some of the most innovative up and coming artists. His work can be seen in various web and print publications.
+    </p>
+    <p class="page-body__copy">
+      Past music clients include Different Sleep, Hey Champ, Lavelle, Ramonst3r, Vagabond Maurice, JROB, and many more.
+    </p>
     <div class="page-body__contact">
       <h3 class="page-body__contact-heading">Get in touch with photo inquiries</h3>
       <a class="page-body__contact-button" href="mailto:{{ site.email }}?subject=Photographer%20Inquiry&amp;body=Hi%20Kevin,">Contact</a>

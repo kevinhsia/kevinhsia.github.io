@@ -16,7 +16,7 @@ permalink: /video/
       </h1>
       <div class="hero__video-wrapper">
         <div class="hero__video-sizer">
-          <iframe class="hero__video-embed" src="https://player.vimeo.com/video/14339379" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe class="hero__video-embed" src="https://player.vimeo.com/video/156439968" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -26,8 +26,9 @@ permalink: /video/
 <div class="page-body">
   <div class="content-wrapper">
     <h2 class="page-body__title">Morbi fringilla convallis sapien</h2>
-    <p class="page-body__copy">Id pulvinar odio volutpat. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras. Quo usque tandem abutere, Catilina, patientia nostra? Excepteur sint obcaecat cupiditat non proident culpa.</p>
-    <p class="page-body__copy">Salutantibus vitae elit libero, a pharetra augue. Praeterea iter est quasdam res quas ex communi. Cras mattis iudicium purus sit amet fermentum. A communi observantia non est recedendum.</p>
+    <p class="page-body__copy">
+      If a picture is worth a thousand words, a video is worth, well, a lot more. Kevin has produced in-agency work for clients like AMC, Marriott, Serta, mobile app animation reels, editorial and culture videos, and content for social media. Full-service capabilities include concepting, shooting, editing, and color grading.
+    </p>
     <div class="page-body__contact">
       <h3 class="page-body__contact-heading">Get in touch with video inquiries</h3>
       <a class="page-body__contact-button" href="mailto:{{ site.email }}?subject=DJ%20Inquiry&amp;body=Hi%20Kevin,">Contact</a>

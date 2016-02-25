@@ -93,24 +93,58 @@
 }
 
 .services__item-header {
+  background-position: 50% top;
   background-size: cover;
   border-bottom: 4px solid;
   height: 200px;
+  overflow: hidden;
   position: relative;
 
-  .services__item--photography & {
+  &::before {
+    transition: all $transition-speed * 1.5;
+  }
+
+  &:hover::before {
+    transform: scale(1.05);
+  }
+}
+
+.services__item--photography,
+.services__item--videography,
+.services__item--dj-performance {
+  .services__item-header::before {
+    background-size: cover;
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.services__item--photography .services__item-header {
+  border-color: $color-teal;
+
+  &::before {
     background-image: url(../assets/images/service-item-photo.png);
-    border-color: $color-teal;
   }
+}
 
-  .services__item--videography & {
+.services__item--videography .services__item-header {
+  border-color: $color-red;
+
+  &::before {
     background-image: url(../assets/images/service-item-video.png);
-    border-color: $color-red;
   }
+}
 
-  .services__item--dj-performance & {
+.services__item--dj-performance .services__item-header {
+  border-color: $color-yellow;
+
+  &::before {
     background-image: url(../assets/images/service-item-dj.png);
-    border-color: $color-yellow;
   }
 }
 

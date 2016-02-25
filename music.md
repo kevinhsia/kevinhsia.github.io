@@ -16,7 +16,7 @@ permalink: /music/
       </h1>
       <div class="hero__soundcloud-wrapper">
         <div class="hero__soundcloud-sizer">
-          <iframe class="hero__soundcloud-embed" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238727478&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+          <iframe class="hero__soundcloud-embed" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/2858291&amp;color=ff5500&amp;auto_play=false&amp;show_artwork=true"></iframe>
         </div>
       </div>
     </div>
@@ -26,8 +26,12 @@ permalink: /music/
 <div class="page-body">
   <div class="content-wrapper">
     <h2 class="page-body__title">Morbi fringilla convallis sapien</h2>
-    <p class="page-body__copy">Id pulvinar odio volutpat. Cum sociis natoque penatibus et magnis dis parturient. Mercedem aut nummos unde unde extricat, amaras. Quo usque tandem abutere, Catilina, patientia nostra? Excepteur sint obcaecat cupiditat non proident culpa.</p>
-    <p class="page-body__copy">Salutantibus vitae elit libero, a pharetra augue. Praeterea iter est quasdam res quas ex communi. Cras mattis iudicium purus sit amet fermentum. A communi observantia non est recedendum.</p>
+    <p class="page-body__copy">
+      Kevin’s work as a DJ is tellingly influenced by the smooth jazz he grew up listening to. The bassline never strays far from his selections. Witnessing a KJH set entails a movement of body and soul from mood-setting jams to upbeat soul, funk, disco, and house. Maybe a little sax here and there too.
+    </p>
+    <p class="page-body__copy">
+      As an avid record collector, his vinyl collection ranges from left-field grooves to feel good hits. You can find him holding down Silk &amp; Soul at Punch House on second Wednesdays, as well various nights at his favorite spots in Chicago.
+    </p>
     <div class="page-body__contact">
       <h3 class="page-body__contact-heading">Get in touch with DJ inquiries</h3>
       <a class="page-body__contact-button" href="mailto:{{ site.email }}?subject=DJ%20Inquiry&amp;body=Hi%20Kevin,">Contact</a>
