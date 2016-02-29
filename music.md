@@ -40,11 +40,11 @@ permalink: /music/
         <!-- all your input fields here.... -->
         <div class="page-body__input-wrapper">
           <label for="name">Name</label>
-          <input id="name" type='text' name='message' />
+          <input id="name" type='text' name='name' />
         </div>
         <div class="page-body__input-wrapper">
           <label for="email">Email</label>
-          <input id="email" type='text' name='message' />
+          <input id="email" type='text' name='email' />
         </div>
         <div class="page-body__input-wrapper">
           <label for="info">How can I help?</label>
