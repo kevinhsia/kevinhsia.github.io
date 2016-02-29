@@ -19,7 +19,6 @@ permalink: /contact/
     </div>
   </div>
 </div>
-
 <div class="page-body">
   <div class="content-wrapper">
     <h2 class="page-body__title">
