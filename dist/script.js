@@ -96,7 +96,7 @@ if (fancySlideshow && fancySlideshow.hasChildNodes()) {
   if (toggleButton && simpleform) {
     (function () {
       var showContactForm = function showContactForm(e) {
-        toggleButton.style.display = 'none';
+        toggleButton.style.visibility = 'hidden';
         simpleform.classList.add('show');
         toggleButton.removeEventListener('click', showContactForm);
       };
