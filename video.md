@@ -31,7 +31,28 @@ permalink: /video/
     </p>
     <div class="page-body__contact">
       <h3 class="page-body__contact-heading">Get in touch with video inquiries</h3>
-      <a class="page-body__contact-button" href="mailto:{{ site.email }}?subject=DJ%20Inquiry&amp;body=Hi%20Kevin,">Contact</a>
+      <form class="simpleform hide" id="simpleform" action="https://getsimpleform.com/messages?form_api_token=1b8d5d4e7de55ac5111769f80a7747bf" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type="hidden" name="redirect_to" value="{{ site.url }}/thanks" />
+        <!-- all your input fields here.... -->
+        <div class="page-body__input-wrapper">
+          <label for="name">Name</label>
+          <input id="name" type='text' name='message' />
+        </div>
+        <div class="page-body__input-wrapper">
+          <label for="email">Email</label>
+          <input id="email" type='text' name='message' />
+        </div>
+        <div class="page-body__input-wrapper">
+          <label for="info">How can I help?</label>
+          <textarea id="info" type='text' name='message'></textarea>
+        </div>
+        <div class="page-body__input-wrapper">
+          <div class="page-body__submit-spacer"></div>
+          <input type='submit' value='Submit' />
+        </div>
+      </form>
+      <a class="page-body__contact-button" id="toggle-contact-form" href="javascript:;">Contact</a>
     </div>
   </div>
 </div>

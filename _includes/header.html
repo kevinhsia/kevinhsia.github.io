@@ -8,7 +8,7 @@
       <nav class="header__nav"  id="nav-menu">
         {% assign nav_sorted = (site.pages | sort: 'nav-position') %}
         {% for my_page in nav_sorted %}
-          {% if my_page.title %}
+          {% if my_page.title and my_page.nav-position %}
           <a class="header__nav-link {{ my_page.class }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}

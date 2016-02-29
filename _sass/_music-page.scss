@@ -47,4 +47,24 @@
       color: $color-black;
     }
   }
+
+  // Contact form
+  .simpleform {
+    transition: max-height 0.75s;
+
+    input[type='submit'] {
+      border: 2px solid $color-music;
+      color: $color-music;
+
+      &:hover {
+        background-color: $color-music;
+        color: $color-black;
+      }
+
+      &:hover {
+        background-color: $color-music;
+        color: $color-black;
+      }
+    }
+  }
 }

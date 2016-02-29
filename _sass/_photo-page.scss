@@ -121,4 +121,24 @@
       color: $color-black;
     }
   }
+
+  // Contact form
+  .simpleform {
+    transition: max-height 0.75s;
+
+    input[type='submit'] {
+      border: 2px solid $color-photo;
+      color: $color-photo;
+
+      &:hover {
+        background-color: $color-photo;
+        color: $color-black;
+      }
+
+      &:hover {
+        background-color: $color-photo;
+        color: $color-black;
+      }
+    }
+  }
 }

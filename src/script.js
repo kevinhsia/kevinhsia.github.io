@@ -80,3 +80,17 @@ if (fancySlideshow && fancySlideshow.hasChildNodes()) {
     imagesWrapper.addEventListener('transitionend', handleTransitionEnd);
   }
 }
+
+// Toggle contact form
+(()=> {
+  const toggleButton = document.getElementById('toggle-contact-form');
+  const simpleform = document.getElementById('simpleform');
+  if (toggleButton && simpleform) {
+    function showContactForm(e) {
+      toggleButton.style.display = 'none';
+      simpleform.classList.add('show');
+      toggleButton.removeEventListener('click', showContactForm);
+    }
+    toggleButton.addEventListener('click', showContactForm);
+  }
+})();

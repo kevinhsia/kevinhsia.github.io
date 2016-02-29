@@ -28,9 +28,9 @@ permalink: /contact/
     <p class="page-body__copy">
       Get in touch with Kevin via <a href="#">email</a>, or via the form below.
     </p>
-    <form action="https://getsimpleform.com/messages?form_api_token=1b8d5d4e7de55ac5111769f80a7747bf" method="post">
+    <form class="simpleform" action="https://getsimpleform.com/messages?form_api_token=1b8d5d4e7de55ac5111769f80a7747bf" method="post">
       <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-      <input type='hidden' name='redirect_to' value='https://www.google.com' />
+      <input type="hidden" name="redirect_to" value="{{ site.url }}/thanks" />
       <!-- all your input fields here.... -->
       <div class="page-body__input-wrapper">
         <label for="name">Name</label>

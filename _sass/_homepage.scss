@@ -1,7 +1,35 @@
+// TODO: Clean this up
+.home {
+  .hero__container {
+    padding: 3em 0 3.25em;
+
+    @include responsive($device-small) {
+      padding: 1em 0 1.25em;
+    }
+  }
+
+  .hero__heading {
+    left: 50%;
+    line-height: 1.8;
+    max-width: 870px;
+    padding: 0;
+    position: relative;
+    transform: translateX(-50%);
+    width: 100%;
+
+    @include responsive($device-medium) {
+      padding: 0 2rem;
+    }
+
+    @include responsive($device-small) {
+      padding: 1.5rem 1rem;
+    }
+  }
+}
+
 // Hero
 .hero {
   background-image: url(/assets/images/geometry.png);
-  // background-size: 25%;
 }
 
 .hero__container {
@@ -24,7 +52,6 @@
 
   a {
     color: $color-blue;
-    display: inline-block;
     transition: all $transition-speed linear;
 
     &:hover,
@@ -42,32 +69,6 @@
     padding: 1.5rem 1rem;
     width: 100%;
   }
-}
-
-.hero__avatar {
-  overflow: hidden;
-  position: relative;
-  width: calc(1/3 * 100%);
-
-  &::before {
-    $margin: 1em;
-    border: 4px solid $color-white;
-    content: '';
-    height: calc(100% - #{$margin} * 2);
-    margin: $margin;
-    position: absolute;
-    width: calc(100% - #{$margin} * 2);
-  }
-
-  @include responsive($device-small) {
-    display: none;
-  }
-}
-
-.hero__avatar-image {
-  background-image: url(../assets/images/avatar.jpg);
-  background-size: cover;
-  padding-bottom: 100%;
 }
 
 // Services
