@@ -17,7 +17,6 @@ permalink: /photo/
       <div class="hero__slideshow-wrapper">
         <div class="hero__slideshow-sizer">
           <div class="hero__slideshow" id="fancy-slideshow">
-            <img src="../assets/images/gallery/00.jpg">
             <img src="../assets/images/gallery/01.jpg">
             <img src="../assets/images/gallery/02.jpg">
             <img src="../assets/images/gallery/03.jpg">
@@ -27,6 +26,7 @@ permalink: /photo/
             <img src="../assets/images/gallery/07.jpg">
             <img src="../assets/images/gallery/08.jpg">
             <img src="../assets/images/gallery/09.jpg">
+            <img src="../assets/images/gallery/10.jpg">
           </div>
         </div>
       </div>
