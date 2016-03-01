@@ -25,7 +25,7 @@ permalink: /contact/
       Contact Kevin Hsia
     </h2>
     <p class="page-body__copy">
-      Get in touch with Kevin via <a href="#">email</a>, or via the form below.
+      Get in touch with Kevin via <a href="mailto:khsia2@gmail.com">email</a>, or via the form below.
     </p>
     <form class="simpleform" action="https://getsimpleform.com/messages?form_api_token=1b8d5d4e7de55ac5111769f80a7747bf" method="post">
       <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
